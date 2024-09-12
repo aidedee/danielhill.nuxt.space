@@ -1,11 +1,11 @@
 <template>
   <div>
+    <NuxtRouteAnnouncer />
+    <div class="container px-6 sm:mx-auto lg:ml-80 prose">
 
-    <div class="container px-6 sm:mx-auto lg:ml-80 prose prose-xl">
-      <NuxtRouteAnnouncer />
 
       <header class="sticky top-0 z-10">
-        <div class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-lg pt-14 pb-36">
+        <div class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm pt-14 pb-36">
           <nav class="w-full sm:flex sm:items-center sm:justify-between backdrop-blur-sm bg-white/50 p-3">
             <div class="flex items-center justify-between">
               <NuxtLink class="flex-none" to="/" alt="" title="">
@@ -13,7 +13,7 @@
               </NuxtLink>
               <div class="sm:hidden">
                 <button type="button"
-                  class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 border-2 border-current text-gray-800"
+                  class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 border-2 border-current text-current"
                   id="hs-navbar-with-collapse" aria-expanded="false" aria-controls="navbar-with-collapse"
                   aria-label="Toggle navigation" data-hs-collapse="#navbar-with-collapse">
                   <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
