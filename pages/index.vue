@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <ContentList path="/article" v-slot="{ list }">
+        <ContentList path="/articles" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">
                 <h2>{{ article.title }}</h2>
                 <p>{{ article.description }}</p>
