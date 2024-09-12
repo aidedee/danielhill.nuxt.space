@@ -1,7 +1,7 @@
 ---
 title: 'The Intersection of Design Engineering and Computer Science: Bridging Creativity with Technology'
 description: 'Explore how design engineering and computer science merge to create innovative solutions, focusing on the tools, methodologies, and principles driving these fields forward.'
-date: 'September 2, 2024'
+date: '2024-09-02'
 ---
 
 # The Intersection of Design Engineering and Computer Science: Bridging Creativity with Technology

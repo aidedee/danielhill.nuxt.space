@@ -1,7 +1,7 @@
 ---
 title: 'Why Nuxt is the Ideal Framework for Modern Web Design'
 description: 'Explore why Nuxt.js is the perfect choice for building fast, scalable, and visually stunning modern web designs.'
-date: 'September 5, 2024'
+date: '2024-09-05'
 ---
 
 # Why Nuxt is the Ideal Framework for Modern Web Design

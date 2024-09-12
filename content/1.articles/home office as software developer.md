@@ -1,7 +1,7 @@
 ---
 title: 'The Ultimate Guide to Thriving as a Software Developer in a Home Office'
 description: 'Discover strategies, tools, and tips to maximize productivity and well-being as a software developer working from home.'
-date: 'September 3, 2024'
+date: '2024-09-03'
 ---
 
 # The Ultimate Guide to Thriving as a Software Developer in a Home Office

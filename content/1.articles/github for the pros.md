@@ -1,7 +1,7 @@
 ---
 title: 'GitHub for the Pros: How Experienced Developers and DevOps Experts Make the Most of GitHub'
 description: 'Discover how seasoned developers and DevOps professionals leverage GitHub advanced features and best practices for streamlined workflows.'
-date: 'September 7, 2024'
+date: '2024-09-07'
 ---
 
 # GitHub for the Pros: How Experienced Developers and DevOps Experts Make the Most of GitHub

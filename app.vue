@@ -1,12 +1,25 @@
+<script setup lang="ts">
+useHead({
+  titleTemplate: '%s - Innovative Designer and Developer | Custom Solutions Crafted for You',
+  bodyAttrs: {
+    class: 'bg-gradient-to-r from-amber-900 to-yellow-300',
+    style: 'font-family: Lexend;'
+  }
+})
+
+</script>
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <div class="container px-6 sm:mx-auto lg:ml-80 prose">
 
 
-      <header class="sticky top-0 z-10">
-        <div class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm pt-14 pb-36">
-          <nav class="w-full sm:flex sm:items-center sm:justify-between backdrop-blur-sm bg-white/50 p-3">
+    <div
+      class="container mb-52 px-6 sm:mx-auto lg:ml-[23rem] border-l-8 border-b-4 border-current prose dark:prose-invert">
+
+
+      <header class="sticky top-10 z-30">
+        <div class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full">
+          <nav
+            class="w-full sm:flex sm:items-center sm:justify-between backdrop-blur-sm bg-gray-300/50 dark:bg-gray-700/50 p-3">
             <div class="flex items-center justify-between">
               <NuxtLink class="flex-none" to="/" alt="" title="">
                 Home
@@ -49,17 +62,18 @@
         </div>
       </header>
 
-      <main>
+      <main class="mt-24">
         <div>
-
-          <NuxtPage />
-          <p>--</p>
+          <div dir="features/meta-tags" file="pages/index.vue">
+            <NuxtPage />
+          </div>
+          <p class="text-2xl">- - :)</p>
         </div>
       </main>
 
       <footer>
 
-        <div class="pb-36 pt-14">
+        <div class="pt-14">
 
           <p>
             <NuxtLink to="https://github.com/dhillweb" alt="" title="" target="_blank">GitHub</NuxtLink>
@@ -68,9 +82,9 @@
 
 
           <p>
-            Last modified:<br>September 1, 2024
+            Last modified:<br>2024-09-13
           </p>
-          <strong>©</strong>
+          <p class="text-2xl">©</p>
 
         </div>
 
@@ -80,9 +94,3 @@
   </div>
 
 </template>
-<style>
-body {
-  font-family: Lexend;
-  background-color: navajowhite
-}
-</style>

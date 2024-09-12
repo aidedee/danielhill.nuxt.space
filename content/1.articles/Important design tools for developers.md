@@ -1,7 +1,7 @@
 ---
 title: 'Important Design Tools for Developers'
 description: 'Explore essential design tools that every developer should know to improve their workflow, UI/UX design, and collaboration with designers.'
-date: 'September 8, 2024'
+date: '2024-09-08'
 ---
 
 # Important Design Tools for Developers
