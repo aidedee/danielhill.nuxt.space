@@ -1,21 +1,21 @@
 <template>
   <div>
 
-    <div class="container px-6 mx-auto bg-gray-300 dark:bg-slate-700 prose prose-xl dark:prose-invert">
+    <div class="container px-6 sm:mx-auto lg:ml-80 prose prose-xl">
       <NuxtRouteAnnouncer />
 
-      <header>
-        <div class="relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-lg py-36">
-          <nav class="w-full sm:flex sm:items-center sm:justify-between">
+      <header class="sticky top-0 z-10">
+        <div class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-lg pt-14 pb-36">
+          <nav class="w-full sm:flex sm:items-center sm:justify-between backdrop-blur-sm bg-white/50 p-3">
             <div class="flex items-center justify-between">
               <NuxtLink class="flex-none" to="/" alt="" title="">
                 Home
               </NuxtLink>
               <div class="sm:hidden">
                 <button type="button"
-                  class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
-                  id="hs-navbar-example-collapse" aria-expanded="false" aria-controls="hs-navbar-example"
-                  aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-example">
+                  class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 border-2 border-current text-gray-800"
+                  id="hs-navbar-with-collapse" aria-expanded="false" aria-controls="navbar-with-collapse"
+                  aria-label="Toggle navigation" data-hs-collapse="#navbar-with-collapse">
                   <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -33,9 +33,9 @@
                 </button>
               </div>
             </div>
-            <div id="hs-navbar-example"
+            <div id="navbar-with-collapse"
               class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block"
-              aria-labelledby="hs-navbar-example-collapse">
+              aria-labelledby="hs-navbar-with-collapse">
               <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
 
                 <ContentNavigation v-slot="{ navigation }">
@@ -50,23 +50,28 @@
       </header>
 
       <main>
-        <div class="py-36">
+        <div>
+
           <NuxtPage />
+          <p>--</p>
         </div>
       </main>
 
       <footer>
 
-        <div class="py-36">
-
-
-          <p>
-            © Last updated: September 1, 2024
-          </p>
+        <div class="pb-36 pt-14">
 
           <p>
             <NuxtLink to="https://github.com/dhillweb" alt="" title="" target="_blank">GitHub</NuxtLink>
           </p>
+
+
+
+          <p>
+            Last modified:<br>September 1, 2024
+          </p>
+          <strong>©</strong>
+
         </div>
 
       </footer>
@@ -78,5 +83,6 @@
 <style>
 body {
   font-family: Lexend;
+  background-color: navajowhite
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <ContentList path="/articles" v-slot="{ list }">
+        <ContentList :query="article" path="/articles" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">
                 <h2>{{ article.title }}</h2>
                 <p>{{ article.description }}</p>
@@ -16,3 +16,9 @@
     </div>
 
 </template>
+
+<script setup lang="ts">
+
+const article = { limit: 4, sort: [{ date: -1 }] }
+
+</script>

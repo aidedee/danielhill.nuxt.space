@@ -4,6 +4,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: ['@tailwindcss/typography', 'preline/plugin']
+  plugins: ['preline/plugin', '@tailwindcss/typography']
 }
 

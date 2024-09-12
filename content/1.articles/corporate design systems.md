@@ -1,7 +1,7 @@
 ---
 title: 'How Corporate Design Systems Empower Brands: A Comprehensive Guide'
 description: 'Discover how corporate design systems streamline branding, enhance consistency, and optimize workflows in companies of all sizes.'
-date: 'September 12, 2024'
+date: 'September 1, 2024'
 ---
 
 # How Corporate Design Systems Empower Brands: A Comprehensive Guide

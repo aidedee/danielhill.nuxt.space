@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@nuxt/content'
   ],
+  plugins: ["~/plugins/preline.client.ts"],
   app: {
     head: {
       link: [
@@ -27,6 +28,5 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     }
-  },
-  plugins: ["~/plugins/preline.client.ts"]
+  }
 })
