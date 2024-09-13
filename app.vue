@@ -2,7 +2,7 @@
 useHead({
   titleTemplate: '%s - Innovative Designer and Developer | Custom Solutions Crafted for You',
   bodyAttrs: {
-    class: 'bg-gradient-to-r from-amber-900 to-yellow-300',
+    class: 'bg-gradient-to-r from-amber-900 to-yellow-600',
     style: 'font-family: Lexend;'
   }
 })
@@ -38,7 +38,7 @@ useHead({
 
 
     <div
-      class="container mb-52 px-6 sm:mx-auto lg:ml-[23rem] border-l-8 border-b-4 border-current prose dark:prose-invert">
+      class="container mb-52 px-6 sm:mx-auto border-l-8 border-b-4 border-current prose dark:prose-invert lg:prose-xl">
 
 
       <header class="sticky top-10 z-30">
@@ -101,9 +101,9 @@ useHead({
       <footer>
 
         <div class="pt-14">
-
+          <p class="text-right">-- :)</p>
           <p>
-            <NuxtLink to="https://github.com/dhillweb" alt="" title="" target="_blank">GitHub</NuxtLink> -- :)
+            <NuxtLink to="https://github.com/dhillweb" alt="" title="" target="_blank">GitHub</NuxtLink>
           </p>
 
 
