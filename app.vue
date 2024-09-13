@@ -21,7 +21,7 @@ useHead({
           <nav
             class="w-full sm:flex sm:items-center sm:justify-between backdrop-blur-sm bg-gray-300/50 dark:bg-gray-700/50 p-3">
             <div class="flex items-center justify-between">
-              <NuxtLink class="flex-none" to="/" alt="" title="">
+              <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" class="flex-none" to="/" alt="" title="">
                 Home
               </NuxtLink>
               <div class="sm:hidden">
@@ -53,7 +53,9 @@ useHead({
 
                 <ContentNavigation v-slot="{ navigation }">
                   <div v-for="link of navigation" :key="link._path">
-                    <NuxtLink :to="link._path" alt="" title="">{{ link.title }}</NuxtLink>
+                    <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" :to="link._path" alt="" title="">{{
+                      link.title }}
+                    </NuxtLink>
                   </div>
                 </ContentNavigation>
               </div>
@@ -67,7 +69,7 @@ useHead({
           <div dir="features/meta-tags" file="pages/index.vue">
             <NuxtPage />
           </div>
-          <p class="text-2xl">- - :)</p>
+
         </div>
       </main>
 
@@ -76,21 +78,23 @@ useHead({
         <div class="pt-14">
 
           <p>
-            <NuxtLink to="https://github.com/dhillweb" alt="" title="" target="_blank">GitHub</NuxtLink>
+            <NuxtLink to="https://github.com/dhillweb" alt="" title="" target="_blank">GitHub</NuxtLink> -- :)
           </p>
 
 
 
-          <p>
-            Last modified:<br>2024-09-13
-          </p>
-          <p class="text-2xl">©</p>
+          <p class="text-sm">
+            Last modified: 2024-09-13<br>
 
+            <span>Copyright © Daniel Hill. All rights reserved.</span>
+          </p>
+          <p></p>
         </div>
 
       </footer>
 
     </div>
+
   </div>
 
 </template>

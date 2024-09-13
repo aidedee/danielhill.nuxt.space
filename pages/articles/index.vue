@@ -1,5 +1,5 @@
 <template>
-    <h1>This is a entire collection of all articles on this website.</h1>
+    <h1 class="pb-20">This Is an Entire Collection of All Articles on This Website</h1>
     <div>
         <ContentList :query="article" path="/articles" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">
@@ -27,6 +27,6 @@ const article = { sort: [{ date: -1 }] }
 
 useSeoMeta({
     title: 'Articles',
-    description: 'Complete article list.',
+    description: 'Complete collection of all articles on this website.',
 })
 </script>
