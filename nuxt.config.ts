@@ -2,6 +2,7 @@
 import tailwindTypography from '@tailwindcss/typography'
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
+
   experimental: {
     asyncContext: false,
     asyncEntry: false,
@@ -28,13 +29,12 @@ export default defineNuxtConfig({
     cookieStore: false,
     buildCache: false
   },
+
   devtools: { enabled: false },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxthq/studio',
-    '@nuxt/content'
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxthq/studio', '@nuxt/content', '@nuxt/image'],
+
   plugins: ["~/plugins/preline.client.ts"],
+
   app: {
     head: {
       link: [
@@ -45,11 +45,13 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   tailwindcss: {
     config: {
       plugins: [tailwindTypography]
     }
   },
+
   content: {
     markdown: {
       anchorLinks: false,
