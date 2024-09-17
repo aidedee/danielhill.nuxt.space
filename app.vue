@@ -38,7 +38,7 @@ useHead({
 
 
     <div
-      class="container mb-52 px-6 sm:mx-auto border-l-8 border-b-4 border-current prose dark:prose-invert lg:prose-xl">
+      class="container mb-52 px-6 sm:mx-auto border-l-8 border-b-4 border-current prose dark:prose-invert lg:prose-2xl">
 
 
       <header class="sticky top-10 z-30">
@@ -46,7 +46,8 @@ useHead({
           <nav
             class="w-full sm:flex sm:items-center sm:justify-between backdrop-blur-sm bg-gray-300/50 dark:bg-gray-700/50 p-3">
             <div class="flex items-center justify-between">
-              <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" class="flex-none" to="/" alt="" title="">
+              <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" class="flex-none no-underline" to="/" alt=""
+                title="">
                 Home
               </NuxtLink>
               <div class="sm:hidden">
@@ -78,8 +79,9 @@ useHead({
 
                 <ContentNavigation v-slot="{ navigation }">
                   <div v-for="link of navigation" :key="link._path">
-                    <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" :to="link._path" alt="" title="">{{
-                      link.title }}
+                    <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" class="no-underline" :to="link._path"
+                      alt="" title="">{{
+                        link.title }}
                     </NuxtLink>
                   </div>
                 </ContentNavigation>
@@ -110,7 +112,7 @@ useHead({
 
 
           <p class="text-sm">
-            Last modified: 2024-09-13<br>
+            Last modified: 2024-09-17<br>
 
             <span>Copyright © Daniel Hill. All rights reserved.</span>
           </p>

@@ -17,7 +17,8 @@
                 <p><strong>{{ article.date }}</strong></p>
                 <ContentNavigation>
                     <div :key="article._path">
-                        <NuxtLink :to="article._path">Continue reading</NuxtLink>
+                        <NuxtLink :to="article._path" alt="" title="">Continue
+                            reading</NuxtLink>
                     </div>
                 </ContentNavigation>
                 <hr>

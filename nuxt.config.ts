@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', '@nuxthq/studio', '@nuxt/content'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxthq/studio', '@nuxt/content', '@nuxt/image'],
 
   plugins: ["~/plugins/preline.client.ts"],
 
@@ -55,6 +55,12 @@ export default defineNuxtConfig({
   content: {
     markdown: {
       anchorLinks: false,
+    },
+    highlight: {
+      theme: {
+        default: 'everforest-light',
+        dark: 'everforest-dark'
+      }
     }
   }
 })

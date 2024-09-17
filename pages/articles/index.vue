@@ -10,7 +10,8 @@
                 <ContentNavigation>
                     <div :key="article._path">
                         {{ article.date }}<br>
-                        <NuxtLink :to="article._path">Continue reading</NuxtLink>
+                        <NuxtLink :to="article._path" alt="" title="">Continue
+                            reading</NuxtLink>
 
                     </div>
                 </ContentNavigation>
