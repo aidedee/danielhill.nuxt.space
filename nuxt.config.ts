@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', '@nuxthq/studio', '@nuxt/content', '@nuxt/image'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxthq/studio', '@nuxt/content'],
 
   plugins: ["~/plugins/preline.client.ts"],
 
