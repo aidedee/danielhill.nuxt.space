@@ -1,3 +1,14 @@
+<script setup lang="ts">
+
+const article = { sort: [{ date: -1 }] }
+
+
+useSeoMeta({
+    title: 'Articles',
+    description: 'Complete collection of all articles on this website.',
+})
+</script>
+
 <template>
     <h1 class="pb-20">This Is an Entire Collection of All Articles on This Website</h1>
     <div>
@@ -25,14 +36,3 @@
         </ContentList>
     </div>
 </template>
-
-<script setup lang="ts">
-
-const article = { sort: [{ date: -1 }] }
-
-
-useSeoMeta({
-    title: 'Articles',
-    description: 'Complete collection of all articles on this website.',
-})
-</script>

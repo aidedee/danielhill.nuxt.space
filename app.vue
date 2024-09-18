@@ -6,8 +6,8 @@ useHead({
     style: 'font-family: Lexend;'
   }
 })
-
 </script>
+
 <template>
   <div>
     <Html lang="en">
@@ -31,28 +31,26 @@ useHead({
       <Meta property="og:url" :content="`danielhill.nuxt.space`" />
       <Meta property="og:image"
         :content="`https://repository-images.githubusercontent.com/856030104/2a946d9b-8135-4327-bdbf-82b873ec10d2`" />
-
     </Head>
 
     </Html>
 
-
+    <NuxtLoadingIndicator />
     <div
-      class="container mb-52 px-6 sm:mx-auto border-l-8 border-b-4 border-current prose dark:prose-invert lg:prose-2xl">
+      class="subpixel-antialiased mb-52 px-6 mx-auto border-l-8 border-b-4 border-current prose dark:prose-invert lg:prose-2xl">
 
 
-      <header class="sticky top-10 z-30">
+      <header class="sticky top-6 z-30">
         <div class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full">
-          <nav
-            class="w-full sm:flex sm:items-center sm:justify-between backdrop-blur-sm bg-gray-300/50 dark:bg-gray-700/50 p-3">
+          <nav class="w-full sm:flex sm:items-center sm:justify-between bg-gray-300 dark:bg-gray-700 p-3">
             <div class="flex items-center justify-between">
-              <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" class="flex-none no-underline" to="/" alt=""
+              <NuxtLink active-class="text-yellow-700 dark:text-yellow-400" class="flex-none no-underline" to="/" alt=""
                 title="">
                 Home
               </NuxtLink>
               <div class="sm:hidden">
                 <button type="button"
-                  class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 border-2 border-current text-current"
+                  class="hs-collapse-toggle relative size-6 flex justify-center items-center gap-x-2 border-2 border-current text-current"
                   id="hs-navbar-with-collapse" aria-expanded="false" aria-controls="navbar-with-collapse"
                   aria-label="Toggle navigation" data-hs-collapse="#navbar-with-collapse">
                   <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
@@ -79,7 +77,7 @@ useHead({
 
                 <ContentNavigation v-slot="{ navigation }">
                   <div v-for="link of navigation" :key="link._path">
-                    <NuxtLink active-class="text-yellow-900 dark:text-yellow-400" class="no-underline" :to="link._path"
+                    <NuxtLink active-class="text-yellow-700 dark:text-yellow-400" class="no-underline" :to="link._path"
                       alt="" title="">{{
                         link.title }}
                     </NuxtLink>
@@ -94,7 +92,7 @@ useHead({
 
       <main class="mt-24">
         <div>
-          <div dir="features/meta-tags" file="pages/index.vue">
+          <div>
             <NuxtPage />
           </div>
 
@@ -112,9 +110,10 @@ useHead({
 
 
           <p class="text-sm">
-            Last modified: 2024-09-17<br>
 
-            <span>Copyright © Daniel Hill. All rights reserved.</span>
+
+            Copyright © Daniel Hill. All rights reserved.<br>
+            Last modified: 2024-09-18
           </p>
           <p></p>
         </div>

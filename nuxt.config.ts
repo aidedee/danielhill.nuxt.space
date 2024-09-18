@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 import tailwindTypography from '@tailwindcss/typography'
+
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
 
@@ -65,11 +67,12 @@ export default defineNuxtConfig({
     config: {
       plugins: [tailwindTypography]
     }
+
   },
 
   content: {
     markdown: {
-      anchorLinks: false,
+      anchorLinks: false
     },
     highlight: {
       theme: {
@@ -77,5 +80,8 @@ export default defineNuxtConfig({
         dark: 'everforest-dark'
       }
     }
+
   }
+
+
 })

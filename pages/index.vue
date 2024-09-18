@@ -1,3 +1,13 @@
+<script setup lang="ts">
+
+const article = { limit: 4, sort: [{ date: -1 }] }
+
+useSeoMeta({
+    title: "Home",
+    description: "Welcome to Daniel Hill's digital space.",
+})
+</script>
+
 <template>
 
     <p class="pb-20">
@@ -34,13 +44,3 @@
     </div>
 
 </template>
-
-<script setup lang="ts">
-
-const article = { limit: 4, sort: [{ date: -1 }] }
-
-useSeoMeta({
-    title: "Home",
-    description: "Welcome to Daniel Hill's digital space.",
-})
-</script>
