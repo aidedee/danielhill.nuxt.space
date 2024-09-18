@@ -40,7 +40,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'preconnect',
-          href: 'https://fonts.gstatic.com',
+          href: 'https://fonts.googleapis.com',
           crossorigin: ''
         },
         {
