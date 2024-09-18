@@ -43,19 +43,19 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        {
+        /* {
           rel: 'preconnect',
           href: 'https://fonts.googleapis.com',
           crossorigin: ''
-        },
+        }, */
         {
           rel: 'preload',
-          href: 'https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap',
+          href: '/fonts/lexend/font.css',
           as: 'style'
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap'
+          href: '/fonts/lexend/font.css'
         }
       ]
     }
