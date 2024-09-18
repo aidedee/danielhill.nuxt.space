@@ -27,7 +27,12 @@ export default defineNuxtConfig({
     sharedPrerenderData: false,
     scanPageMeta: false,
     cookieStore: false,
-    buildCache: false
+    buildCache: false,
+    defaults: {
+      nuxtLink: {
+        trailingSlash: 'append'
+      }
+    }
   },
 
   devtools: { enabled: false },
