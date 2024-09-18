@@ -10,19 +10,26 @@
     <div>
         <h1>Overview of My Latest Articles
         </h1>
-        <ContentList :query="article" path="/articles" v-slot="{ list }">
-            <div v-for="article in list" :key="article._path">
-                <h2>{{ article.title }}</h2>
-                <p>{{ article.description }}</p>
-                <p><strong>{{ article.date }}</strong></p>
-                <ContentNavigation>
-                    <div :key="article._path">
-                        <NuxtLink :to="article._path" alt="" title="">Continue
-                            reading</NuxtLink>
-                    </div>
-                </ContentNavigation>
-                <hr>
-            </div>
+        <ContentList :query="article" path="/articles">
+            <template #default="{ list }">
+                <div v-for="article in list" :key="article._path">
+                    <h2>{{ article.title }}</h2>
+                    <p>{{ article.description }}</p>
+                    <p><strong>{{ article.date }}</strong></p>
+                    <ContentNavigation>
+                        <div :key="article._path">
+                            <NuxtLink :to="article._path" alt="" title="">Continue
+                                reading</NuxtLink>
+                        </div>
+                    </ContentNavigation>
+                    <hr>
+                </div>
+            </template>
+            <template #not-found>
+                <p>Articles cannot be displayed. Please check your browser settings.</p>
+            </template>
+
+
         </ContentList>
     </div>
 
