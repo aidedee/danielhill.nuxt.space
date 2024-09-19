@@ -35,7 +35,7 @@ useHead({
 
     </Html>
 
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator color="black" />
     <div
       class="subpixel-antialiased mb-52 px-6 mx-auto border-l-8 border-b-4 border-current prose dark:prose-invert lg:prose-2xl">
 
