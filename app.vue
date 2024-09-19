@@ -78,8 +78,8 @@ useHead({
                 <ContentNavigation v-slot="{ navigation }">
                   <div v-for="link of navigation" :key="link._path">
                     <NuxtLink active-class="text-yellow-700 dark:text-yellow-400" class="no-underline" :to="link._path"
-                      alt="" title="">{{
-                        link.title }}
+                      alt="" title="">
+                      {{ link.title }}
                     </NuxtLink>
                   </div>
                 </ContentNavigation>

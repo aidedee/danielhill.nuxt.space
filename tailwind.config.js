@@ -4,16 +4,13 @@ export default {
   content: ['./node_modules/preline/preline.js'],
 
   theme: {
-    extend: {
+    extend: {}
+  },
 
-    },
-
-    plugins: [
-      require(
-        'preline/plugin',
-        '@tailwindcss/typography'
-      )
-    ]
-  }
+  plugins: [
+    require(
+      'preline/plugin',
+      '@tailwindcss/typography'
+    )],
 }
 

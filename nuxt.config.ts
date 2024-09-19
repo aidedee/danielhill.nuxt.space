@@ -38,30 +38,11 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', '@nuxthq/studio', '@nuxt/content', '@nuxt/image'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxthq/studio', '@nuxt/content'],
 
-  plugins: ["~/plugins/preline.client.ts"],
+  plugins: ['~/plugins/preline.client.ts'],
 
-  app: {
-    head: {
-      link: [
-        /* {
-          rel: 'preconnect',
-          href: 'https://fonts.googleapis.com',
-          crossorigin: ''
-        }, */
-        {
-          rel: 'preload',
-          href: '/fonts/lexend/font.css',
-          as: 'style'
-        },
-        {
-          rel: 'stylesheet',
-          href: '/fonts/lexend/font.css'
-        }
-      ]
-    }
-  },
+
 
   tailwindcss: {
     config: {
