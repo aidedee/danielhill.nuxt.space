@@ -1,7 +1,7 @@
 ---
 title: "The Importance of a Strong Logo in Branding and UI/UX Design"
 description: "Explore how a well-designed logo impacts brand identity and user experience, and why it matters for your business."
-date: "2024-09-20"
+date: '2024-09-20'
 ---
 
 # The Importance of a Strong Logo in Branding and UI/UX Design
