@@ -1,6 +1,6 @@
 ---
 title: 'UX Design User Flow'
-description: 'A complete user flow of an ecommerce app'
+description: 'A complete user flow of an ecommerce app.'
 date: '2024-09-25'
 ---
 
