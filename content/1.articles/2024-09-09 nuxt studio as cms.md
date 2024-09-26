@@ -1,7 +1,7 @@
 ---
-title: 'Nuxt Studio as CMS: A Revolution in Web Development and Content Management'
-description: 'Explore how Nuxt Studio redefines web development and content management, offering a powerful CMS for modern developers.'
-date: '2024-09-09'
+title: "Nuxt Studio as CMS: A Revolution in Web Development and Content Management"
+description: "Explore how Nuxt Studio redefines web development and content management, offering a powerful CMS for modern developers."
+date: "2024-09-09"
 ---
 
 # Nuxt Studio as CMS: A Revolution in Web Development and Content Management
