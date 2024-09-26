@@ -1,3 +1,9 @@
+---
+title: 'UX design user flow'
+description: 'A complete user flow of an ecommerce app'
+date: '2024-09-25'
+---
+
 ### E-Commerce App User Flow
 
 #### 1. **Onboarding/Sign Up**
