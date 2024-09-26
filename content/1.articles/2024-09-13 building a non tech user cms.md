@@ -1,7 +1,7 @@
 ---
-title: 'Leveraging Nuxt to Build a CMS for Non-Tech Users: How to Create and Fully Release a User-Friendly Solution'
-description: 'Explore how Nuxt can be used to build a CMS that non-tech users can easily manage, and learn best practices for fully releasing the system to your clients.'
-date: '2024-09-13'
+title: "Leveraging Nuxt to Build a CMS for Non-Tech Users: How to Create and Fully Release a User-Friendly Solution"
+description: "Explore how Nuxt can be used to build a CMS that non-tech users can easily manage, and learn best practices for fully releasing the system to your clients."
+date: "2024-09-13"
 ---
 
 # Leveraging Nuxt to Build a CMS for Non-Tech Users: How to Create and Fully Release a User-Friendly Solution
