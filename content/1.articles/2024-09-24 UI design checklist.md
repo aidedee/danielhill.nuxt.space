@@ -1,5 +1,5 @@
 ---
-title: 'UI design checklist'
+title: 'UI Design Checklist'
 description: 'Detailed checklist for UI design'
 date: '2024-09-24'
 ---
