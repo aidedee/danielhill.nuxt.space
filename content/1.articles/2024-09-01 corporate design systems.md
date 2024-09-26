@@ -1,6 +1,6 @@
 ---
-title: 'How Corporate Design Systems Empower Brands: A Comprehensive Guide'
-description: 'Discover how corporate design systems streamline branding, enhance consistency, and optimize workflows in companies of all sizes.'
+title: "How Corporate Design Systems Empower Brands: A Comprehensive Guide"
+description: "Discover how corporate design systems streamline branding, enhance consistency, and optimize workflows in companies of all sizes."
 date: '2024-09-01'
 ---
 
