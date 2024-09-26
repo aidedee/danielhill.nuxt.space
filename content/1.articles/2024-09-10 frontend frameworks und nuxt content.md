@@ -1,7 +1,7 @@
 ---
-title: 'Traditional Static Frontend Frameworks vs. Nuxt Content: Which System Offers More?'
-description: 'Explore the differences between traditional static frontend frameworks and Nuxt Content, comparing performance, flexibility, and development experience.'
-date: '2024-09-10'
+title: "Traditional Static Frontend Frameworks vs. Nuxt Content: Which System Offers More?"
+description: "Explore the differences between traditional static frontend frameworks and Nuxt Content, comparing performance, flexibility, and development experience."
+date: "2024-09-10"
 ---
 
 # Traditional Static Frontend Frameworks vs. Nuxt Content: Which System Offers More?
