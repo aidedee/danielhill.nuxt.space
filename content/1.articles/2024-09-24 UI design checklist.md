@@ -1,3 +1,9 @@
+---
+title: 'UI design checklist'
+description: 'Detailed checklist for UI design'
+date: '2024-09-24'
+---
+
 | **Category**        | **UI Element**                        | **Description**                                                                 | **Completed (Yes/No)** |
 |---------------------|---------------------------------------|---------------------------------------------------------------------------------|------------------------|
 | **Navigation**       | Header                                | A clear and intuitive header with branding and navigation links                  |                        |
