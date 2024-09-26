@@ -1,6 +1,6 @@
 ---
-title: 'Mastering Successful Website Development: A Comprehensive Guide for Beginners'
-description: 'Discover the essential steps and strategies to build a successful website, covering planning, design, development, and optimization.'
+title: "Mastering Successful Website Development: A Comprehensive Guide for Beginners"
+description: "Discover the essential steps and strategies to build a successful website, covering planning, design, development, and optimization."
 date: '2024-09-04'
 ---
 
