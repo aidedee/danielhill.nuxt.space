@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript Animation Libraries: Motion One and GSAP'
-description: 'Explore the world of web animations with Motion One and GSAP. Learn how to create stunning animations and bring your website to life.'
-date: '2024-09-11'
+title: "JavaScript Animation Libraries: Motion One and GSAP"
+description: "Explore the world of web animations with Motion One and GSAP. Learn how to create stunning animations and bring your website to life."
+date: "2024-09-11"
 ---
 
 # JavaScript Animation Libraries: Motion One and GSAP
