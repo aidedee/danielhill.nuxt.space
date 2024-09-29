@@ -104,7 +104,7 @@ useHead({
         <div class="pt-14">
           <p class="text-right">-- :)</p>
           <p>
-            <NuxtLink to="https://github.com/aide-dee" alt="" title="" target="_blank">GitHub</NuxtLink>
+            <NuxtLink to="https://github.com/aidedee" alt="" title="" target="_blank">GitHub</NuxtLink>
           </p>
 
 
